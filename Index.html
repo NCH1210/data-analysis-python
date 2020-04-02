@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        display: block;
+        margin: 0 auto;
+      }
+      h1 {
+        font-family: "Roboto Mono", monospace;
+        margin: 5px;
+        text-align: center;
+      }
+      section,
+      p {
+        font-family: "Source Code Pro", monospace;
+        font-size: 20px;
+        margin: 5px;
+        text-align: center;
+      }
+
+      section {
+        margin-left: -250px;
+        margin-top: 40px;
+    
+      }
+
+      p {
+        margin-right: -120px;
+        margin-top: 10px;
+      }
+      img {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 10px;
+      }
+
+     img.float-left {
+      margin-left: -20px;
+      margin-top: -30px;
+      align-content: left;
+
+
+     }
+      img.float-right {
+        margin-top: -50px;
+        margin-left: -10px;
+        align-content: right;
+
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>
+      Find out if you're part of the 2020
+       high-in-demand developers in Germany!
+    </h1>
+    <div class="container">
+      <div class="row left">
+        <div class="col-6">
+          <image
+            class="float-left"
+            src="images/programming_languages.png"
+            alt="programming languages"
+            width="60%"
+          ></image>
+        </div>
+        <div class="col-6">
+          <section>
+            Based on StackOverflow's Developers Survey we analyzed the trend of
+            programming languages in Germany over the last three years. There is
+            clear evidence which languages are a secure choice for developers to
+            get acquainted with.
+            
+          </section>
+        </div>
+      </div>
+      <div class="row">     
+        <div class="col-6">
+          <p class="float-left">
+            When looking at the results it becomes evident that the younger
+            programming languages are in higher demand and usage. The older
+            programming languages like C# aren't part of the upper five, but
+            still occupy a spot in the top ranges. Even though subject to
+            fluctuations, Python has increased in the usage as well as in the
+            demand ratio over the last three years and is highly required in
+            2019 right after JavaScript.
+          </p>
+        </div>
+        <div class="col-6">
+        <image
+            class="float-right"
+            src="images/Top_10_in_2019.png"
+            alt="Bar chart"
+            width="75%"
+          ></image>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
