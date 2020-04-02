@@ -1,2 +1,1 @@
-# data-analysis-python
- 
+# Udacity Project: Data Science Blog Post
